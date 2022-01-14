@@ -3,8 +3,9 @@ layout: default
 title: Action Plan
 ---
 	<h1>{{ page.title }}</h1>
-	<ul class="posts">
 During the time at RMIT University, first thing I need to do is that I need to firgure out what requirements for a software developer and set a weekly timetable for my pathway. Everyday, I will select a language to learn, spend about 3-4 hours to practice coding, at the time, I also need to read code written by experienced developers. Beside that, finding a community of software developer and exchange our knowledge to each others. In the second year, I will start to build a project ( I do not have right now but I will think about it in the near future), this will enhace my learning skills and show that I am a potential developer. Also, I will be an internship to gain some skills and in the final year, I will graduate with my project and I can find a real job with it.
+
+	<ul class="posts">
 	  {% for post in site.posts %}
 	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 	  {% endfor %}
